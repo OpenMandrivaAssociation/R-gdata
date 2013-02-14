@@ -1,14 +1,16 @@
 %global packname  gdata
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          2.8.2
+Version:          2.12.0
 Release:          1
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gdata_2.12.0.tar.gz
 Requires:         R-gtools 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-gtools 
