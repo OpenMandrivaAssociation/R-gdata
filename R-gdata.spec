@@ -2,10 +2,11 @@
 %global rlibdir  %{_libdir}/R/library
 
 %define debug_package %{nil}
+%define __noautoprov 'perl.*'
 
 Name:             R-%{packname}
 Version:          2.12.0
-Release:          1
+Release:          2
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
