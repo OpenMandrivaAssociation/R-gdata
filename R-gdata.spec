@@ -3,10 +3,11 @@
 
 %define debug_package %{nil}
 %define __noautoprov 'perl.*'
+%define __noautoreq 'perl.*'
 
 Name:             R-%{packname}
 Version:          2.12.0
-Release:          2
+Release:          3
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
