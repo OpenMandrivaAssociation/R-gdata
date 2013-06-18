@@ -7,7 +7,7 @@
 
 Name:             R-%{packname}
 Version:          2.12.0
-Release:          3
+Release:          4
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
