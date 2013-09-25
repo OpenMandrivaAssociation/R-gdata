@@ -2,17 +2,17 @@
 %global rlibdir  %{_libdir}/R/library
 
 %define debug_package %{nil}
-%define __noautoprov 'perl.*'
 %define __noautoreq 'perl.*'
+%define __noautoprov 'perl.*'
 
 Name:             R-%{packname}
-Version:          2.12.0
-Release:          4
+Version:          2.13.2
+Release:          1
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/gdata_2.12.0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gdata_2.13.2.tar.gz
 Requires:         R-gtools 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-gtools 
