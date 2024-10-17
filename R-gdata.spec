@@ -11,7 +11,7 @@ Release:          1
 Summary:          Various R programming tools for data manipulation
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/gdata_2.13.2.tar.gz
 Requires:         R-gtools 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
